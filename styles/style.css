@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(250, 246, 234);
+    background-color: #f1f7f8
 }
 
 .header {
@@ -8,6 +8,7 @@ body {
     align-items: baseline;
     margin-inline: 5%;
     border-bottom: 1px black solid;
+    color: #7587ef;
 }
 
 .logo {
@@ -20,7 +21,7 @@ body {
     margin: 5% auto;
     width: 33vmin;
     padding: 2%;
-    background: tomato;
+    background: #6f84bd;
     border-radius: 5%;
 
 }

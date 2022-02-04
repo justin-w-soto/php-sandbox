@@ -3,7 +3,7 @@
 ?>
 
 <section class="signin-form">
-    <form action="">
+    <form action="includes/signin.inc.php" method="post">
         <input type="text"name="email" placeholder="Email" class="signin-input">
         <input type="text"name="uid" placeholder="Username" class="signin-input">
         <input type="password"name="pwd" placeholder="Password" class="signin-input">
