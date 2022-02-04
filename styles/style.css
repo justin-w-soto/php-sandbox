@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(250, 246, 234);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-inline: 5%;
+    border-bottom: 1px black solid;
+}
+
+.logo {
+    width: 25vmin;
+}
+
+.signup-form, .signin-form {
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    width: 33vmin;
+    padding: 2%;
+    background: tomato;
+    border-radius: 5%;
+
+}
+
+.signup-input, .signin-input {
+    width: 95%;
+    margin: 2%;
+    padding: 2%;
+    border: none;
+    border-radius: .5rem;
+    
+}
+
+.signup-btn, .signin-btn {
+    margin-inline: 2%;
+    margin-top: 1%;
+    border: none;
+    padding: 2% 3%;
+    border-radius: .5rem;
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+}
